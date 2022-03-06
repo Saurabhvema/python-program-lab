@@ -1,0 +1,5 @@
+a=float(input("enter the area of rhombus:"))
+p=float(input("enter the perameter of rhombus:"))
+s=p/4
+h=a/s
+print("side of rhombus is {1} and height is {2"}.format(s,h))
