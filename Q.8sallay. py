@@ -1,0 +1,10 @@
+a=int(input("enter the basic sallery of employee:"))
+if(a<10000):
+          b=a+0.8*a+0.9*a
+          print("sallery of employee is ",(b))
+elif(a>10000 and a<=20000):
+          b=a+0.85*a+0.90*a
+          print("sallery of employee is",(b))
+elif(a>20000):
+          b=a+0.95*a+o.95*a
+          print("sallery of employee is",(b))
