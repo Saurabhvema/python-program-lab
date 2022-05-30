@@ -1,0 +1,5 @@
+f=open("c.txt","w")
+for i in range(100,201):
+    b=str(i)
+    f.write(b+"\n")
+f.close()    
